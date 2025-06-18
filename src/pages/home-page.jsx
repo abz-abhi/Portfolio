@@ -6,8 +6,8 @@ const Mainpage = () => {
   return (
     <div>
       <Header />
-      <HomeContent />
-      <CurrentlyWork />
+      {/* <HomeContent /> */}
+      {/* <CurrentlyWork /> */}
     </div>
   );
 };

@@ -8,9 +8,9 @@ function App() {
   return (
     <div class="max-w-[2000px] text-white bg-[#11071F] flex flex-col ">
       <Mainpage />
-      <SecondPage />
-      <ThirdPage />
-      <Contact />
+      {/* <SecondPage /> */}
+      {/* <ThirdPage /> */}
+      {/* <Contact /> */}
     </div>
   );
 }
