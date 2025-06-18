@@ -9,8 +9,8 @@ function App() {
     <div class="max-w-[2000px] text-white bg-[#11071F] flex flex-col ">
       <Mainpage />
       <SecondPage />
-      {/* <ThirdPage /> */}
-      {/* <Contact /> */}
+      <ThirdPage />
+      <Contact />
     </div>
   );
 }

@@ -5,15 +5,15 @@ import SoftwareDesign from "../components/software-design.jsx";
 
 const SecondPage = () => {
   return (
-    <div>
-      <div class="flex flex-col  items-center justify-center">
+    <div className="flex justify-center md:p-0 xxs:p-5">
+      <div class="flex flex-col  items-center justify-center w-fit">
         <WorkExperience />
-        <div class="italic flex flex-col items-center mt-44 ">
-          <p class="text-2xl">
-            I'm currently looking to join a{" "}
-            <span class="text-textPurple">cross-functional</span> team
+        <div class="italic flex flex-col items-center md:mt-44 xxs:mt-24 ">
+          <p class="md:text-2xl xxs:text-[16px] text-center">
+            I'm currently looking to join a
+            <span class="text-textPurple"> cross-functional</span> team
           </p>
-          <p>that values improving people's lives through accessible design </p>
+          <p className="md:text-xs xxs:text-[10px]">that values improving people's lives through accessible design </p>
 
           <div class="flex flex-col items-center mt-10 gap-4">
             <div class="flex gap-3">
