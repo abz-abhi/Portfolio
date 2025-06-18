@@ -1,9 +1,17 @@
 import './App.css';
-import Mainpage from './pages/page1';
+import Mainpage from './pages/home-page';
+import SecondPage from './pages/work-Experience'
+import ThirdPage from './pages/example-projects';
+import Contact from './pages/contact';
 
 function App() {
   return (
-    <Mainpage />
+    <div class="max-w-[2000px] text-white bg-[#11071F] flex flex-col ">
+      <Mainpage />
+      <SecondPage />
+      <ThirdPage />
+      <Contact />
+    </div>
   );
 }
 
