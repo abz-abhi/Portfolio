@@ -9,8 +9,7 @@ const HomeContent = () => {
       <div
         class=" round bg-gradient-radial from-[#5D1C99] via-[#1E003E] to-black overflow-hidden
       md:w-[385px] md:h-[431px]
-      sm:w-[350px] sm:h-[380px]
-      xxs:w-[300px] xxs:h-[300px]
+      xxs:w-[250px] xxs:h-[250px]
       "
       >
         <img
@@ -22,8 +21,7 @@ const HomeContent = () => {
       <img
         class="absolute 
         md:w-auto md:ml-72 md:mt-5 
-        sm:w-16 sm:ml-72 sm:mt-5
-        xxs:w-14 xxs:ml-36 xxs:mt-5 "
+        xxs:w-10 xxs:ml-32 xxs:mt-5 "
         src="/assets/vectors/Vector.png"
         alt=""
       />
