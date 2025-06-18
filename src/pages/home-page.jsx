@@ -4,10 +4,10 @@ import CurrentlyWork from "../components/work-on.jsx";
 
 const Mainpage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
-      {/* <HomeContent /> */}
-      {/* <CurrentlyWork /> */}
+      <HomeContent />
+      <CurrentlyWork />
     </div>
   );
 };

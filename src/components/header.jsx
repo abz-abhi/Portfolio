@@ -11,15 +11,15 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-hdbackground flex justify-between h-[113px] relative">
+    <div className="bg-hdbackground flex justify-between items-center md:h-[113px] p-2 xxs:h-[80px] relative">
       <img
-        className="h-[110px] pt-3 lg:ml-60"
+        className="md:h-[110px] xxs:h-[90px] pt-3 md:ml-60"
         src="../assets/logos/1b5df74371fd49b99832148c5d898473-free.png"
         alt="Logo"
       />
 
       {/* Desktop Menu */}
-      <ul className="space-x-24 text-xl md:flex items-center mr-60 hidden text-white">
+      <ul className="space-x-24 text-xl md:flex items-center mr-60 hidden  text-white">
         <li className="hover:text-gray-300 cursor-pointer transition-colors">
           Home
         </li>
@@ -62,7 +62,7 @@ const Header = () => {
               duration: 0.2,
               ease: "easeOut",
             }}
-            className="z-0 md:z-auto h-10 p-6 absolute top-[113px] right-0 bg-[#D5D4D6] w-full text-textPurple text-center flex justify-around items-center md:hidden shadow-lg backdrop-blur-sm"
+            className="z-0 md:z-auto h-10 p-6 absolute xxs:top-[80px] right-0 bg-[#D5D4D6] w-full text-textPurple text-center flex justify-around items-center md:hidden shadow-lg backdrop-blur-sm"
           >
             <motion.li
               initial={{ opacity: 0, x: 20 }}
