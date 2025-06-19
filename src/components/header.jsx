@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className="bg-hdbackground flex justify-between items-center md:h-[113px] p-2 xxs:h-[80px] relative">
       <img
-        className="md:h-[110px] xxs:h-[90px] pt-3 md:ml-60"
+        className="md:h-[110px] xxs:h-[90px] pt-3 md:ml-60 xxs:ml-0 xs:ml-0 sm:ml-16 "
         src="../assets/logos/1b5df74371fd49b99832148c5d898473-free.png"
         alt="Logo"
       />
@@ -34,7 +34,7 @@ const Header = () => {
       {/* Mobile Menu Button */}
       <motion.button
         onClick={toggleMenu}
-        className="md:hidden text-gray-700 focus:outline-none z-50 mr-4"
+        className="md:hidden text-gray-700 focus:outline-none z-50 mr-4 xxs:mr-0 xs:mr-0 sm:mr-16"
         whileTap={{ scale: 0.95 }}
         animate={{ rotate: menuOpen ? 180 : 0 }}
         transition={{ duration: 0.2 }}
