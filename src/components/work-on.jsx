@@ -1,6 +1,6 @@
 const  CurrentlyWork = () => {
   return (
-    <div class="italic w-fit  md:ml-96 md:mt-11 md:p-0 xxs:p-5 xxs:-mt-10 xs:mt-10">
+    <div class="italic w-fit  md:ml-96 xxs:ml-0 xs:ml-2 md:mt-11 md:p-0 xxs:p-5 xxs:-mt-10 xs:mt-10">
       <p class="md:text-5xl xxs:text-[28px] xs:text-[38px] whitespace-nowrap">
         I'm a Software Engineer. <span class="not-italic">|</span>
       </p>

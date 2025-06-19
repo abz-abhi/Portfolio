@@ -14,7 +14,7 @@ const Header = () => {
     <div className="bg-hdbackground flex justify-between items-center md:h-[113px] p-2 xxs:h-[80px] relative">
       <img
         className="md:h-[110px] xxs:h-[90px] pt-3 md:ml-60 xxs:ml-0 xs:ml-0 sm:ml-16 "
-        src="../assets/logos/1b5df74371fd49b99832148c5d898473-free.png"
+        src="../assets/logos/myLogo.png"
         alt="Logo"
       />
 

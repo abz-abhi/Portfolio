@@ -21,7 +21,7 @@ const SoftwareDesign = () => {
             >
               <img
                 className="glow  p-3 w-full h-full object-contain "
-                src="../assets/logos/1b5df74371fd49b99832148c5d898473-free.png"
+                src="../assets/logos/myLogo.png"
                 alt=""
               />
             </div>
