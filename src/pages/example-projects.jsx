@@ -29,7 +29,7 @@ const ThirdPage = () => {
         <div class="w-[800px] h-[720px] ml-[30rem] mt-24 bg-gradient-radial from-[#5D1C99] via-[#1E003E] to-black rounded-full absolute z-0"></div>
       </div>
       {/* Example project 2 */}
-      <div class="flex flex-row-reverse flex-wrap justify-center items-center md:mt-56 xxs:mt-20 relative ">
+      <div class="flex flex-row-reverse flex-wrap justify-center items-center lg:mt-56 md:mt-32 xxs:mt-20 relative ">
         <div class="flex flex-wrap flex-col items-end z-20 gap-4 w-fit h-fit">
           <div class='flex flex-col items-end'>
             <p class="text-1xl text-textPurple font-normal">Featured Project</p>

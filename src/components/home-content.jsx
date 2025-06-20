@@ -5,13 +5,15 @@ const HomeContent = () => {
     <div className=" flex justify-center items-center">
       <div
         class="flex relative w-fit 
-     md:-ml-80 md:mt-36 md:p-0
+     lg:-ml-80 lg:mt-36 lg:p-0
+     md:ml-0 md:mt-24 md:p-4
      sm:ml-0 sm:mt-20 sm:p-5
      xxs:ml-0 xxs:mt-20 xxs:p-5  "
       >
         <div
           class=" round bg-gradient-radial from-[#5D1C99] via-[#1E003E] to-black overflow-hidden
-      md:w-[385px] md:h-[431px]
+      lg:w-[385px] lg:h-[431px]
+      md:w-[300px] md:h-[300px]
       xxs:w-[250px] xxs:h-[250px]
       "
         >
@@ -23,29 +25,27 @@ const HomeContent = () => {
         </div>
         <img
           class="absolute 
-        md:w-auto md:ml-72 md:mt-5 
+        lg:w-auto lg:ml-72 lg:mt-5 
+        md:w-16 md:ml-52 md:mt-4
         xs:w-12  xs:ml-40 xs:mt-2
         xxs:w-10 xxs:ml-32 xxs:mt-5 "
           src="/assets/vectors/Vector.png"
           alt=""
         />
         <div class="italic ">
-          <p
-            class="md:text-lg md:mt-0 md:ml-0
-                 sm:text-sm sm:mt-0 sm:ml-0
-                 xxs:text-xs xxs:mt-0 xxs:ml-0"
-          >
+          <p class="md:text-lg md:mt-0 md:ml-0 sm:text-sm sm:mt-0 sm:ml-0 xxs:text-xs xxs:mt-0 xxs:ml-0">
             Hello! I Am <span class="text-textPurple">Abhishek</span>
           </p>
-          <div class="relative md:ml-16 md:mt-24 sm:ml-10 sm:mt-20 xxs:ml-5 xxs:mt-16 ">
+          <div class="relative lg:ml-16 lg:mt-24 md:mt-14 sm:ml-10 sm:mt-20 xxs:ml-5 xxs:mt-16 ">
             <p class="md:text-xl sm:text-lg xxs:text-sm"> A Programmer who</p>
-            <p className="md:text-6xl sm:text-4xl xxs:text-2xl">
+            <p className="lg:text-6xl md:text-5xl sm:text-4xl xxs:text-2xl">
               Judges a book <br />
               by its <span class="text-textPurple">cover</span>...
             </p>
             <img
               class="absolute 
-            md:ml-40 md:-mt-14 md:h-fit 
+            lg:ml-40 lg:-mt-14 lg:h-fit 
+            md:ml-[7.3rem] md:-mt-[2.7rem] md:h-12
             sm:ml-[5.5rem] sm:-mt-10 sm:h-10
             xxs:ml-[3.6rem] xxs:-mt-7 xxs:h-6
             "

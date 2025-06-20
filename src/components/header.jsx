@@ -11,15 +11,15 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-hdbackground flex justify-between items-center md:h-[113px] p-2 xxs:h-[80px] relative">
+    <div className="bg-hdbackground flex justify-between items-center lg:h-[113px] p-2 xxs:h-[80px] relative">
       <img
-        className="md:h-[110px] xxs:h-[90px] pt-3 md:ml-60 xxs:ml-0 xs:ml-0 sm:ml-16 "
+        className="lg:h-[110px] xxs:h-[90px] pt-3 lg:ml-60 xxs:ml-0 xs:ml-0 sm:ml-16 "
         src="../assets/logos/myLogo.png"
         alt="Logo"
       />
 
       {/* Desktop Menu */}
-      <ul className="space-x-24 text-xl md:flex items-center mr-60 hidden  text-white">
+      <ul className="lg:space-x-24 md:space-x-16  md:flex items-center lg:mr-60 md:mr-16 hidden lg:text-xl   text-white">
         <li className="hover:text-gray-300 cursor-pointer transition-colors">
           Home
         </li>

@@ -13,9 +13,12 @@ const Contact = () => {
   };
 
   return (
-    <div class="flex justify-center mb-20  md:p-0 xxs:p-4">
-      <div class="md:mt-96 xxs:mt-16  italic space-y-7 md:mr-[30rem] flex flex-col flex-wrap w-fit ">
-        <p class="text-2xl md:mb-20">Contact</p>
+    <div class="flex justify-center mb-20  md:p-10 xxs:p-4 ">
+      <div class="flex flex-col flex-wrap w-fit italic space-y-7
+                  lg:mt-96 lg:mr-[30rem]
+                  md:mt-44 md:mr-[8rem] 
+                  xxs:mt-16 xxs:mr-0">
+        <p class="text-2xl lg:mb-20 md:mb-10">Contact</p>
         <p class="max-w-[700px]">
           I'm currently looking to join a cross-functional team that values
           improving people's lives through accessible design. or have a project
