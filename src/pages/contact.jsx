@@ -43,7 +43,7 @@ const Contact = () => {
             imgPath="../assets/logos/contact/icons8-linkedin-48.png"
           />
           <ContactLogo
-            linkUrl="mailto:abhishek@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20portfolio"
+            linkUrl="mailto:abhislinux@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20portfolio"
             imgPath="../assets/logos/contact/icons8-email-48.png"
           />
           <button class="h-8 w-8" onClick={handleCopy}>

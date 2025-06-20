@@ -5,10 +5,10 @@ const HomeContent = () => {
     <div className=" flex justify-center items-center">
       <div
         class="flex relative w-fit 
-     lg:-ml-80 lg:mt-36 lg:p-0
-     md:ml-0 md:mt-24 md:p-4
-     sm:ml-0 sm:mt-20 sm:p-5
-     xxs:ml-0 xxs:mt-20 xxs:p-5  "
+     lg:-ml-80 lg:mt-[16rem] lg:p-0
+     md:ml-0 md:mt-[13rem] md:p-4
+     sm:ml-0 sm:mt-[11rem] sm:p-5
+     xxs:ml-0 xxs:mt-[11rem] xxs:p-5  "
       >
         <div
           class=" round bg-gradient-radial from-[#5D1C99] via-[#1E003E] to-black overflow-hidden
